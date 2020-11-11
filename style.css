@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+	/*background-color: #16697a;*/
+	text-align: center;
+	margin: 0px;
+	padding: 3em;
+ 	touch-action: none;
+  font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;Helvetica, Arial;*/
+}
+
+h1 {
+  color: #222831;
+  margin-bottom: 0px;
+  font-size: 3em;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+h2 {
+  /* color: #ed6663; 
+  font-size: 9.5em;*/
+}
+
+.message {
+  border: 1px solid red;
+  width: 70vw;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  margin:0px auto;
+  padding: 0px;
+  height: 30vh;
+  /*font-size: 4vw;*/
+}
+
+
+.article {
+  padding: 30px;
+  padding-top: 10px;
+  /*margin: 20px;*/
+  /*background-color: red;
+  font-family: Helvetica, Arial;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  color: #222831;
+  font-size: 17px;
+}
+
+.titre {
+  margin-top: 45px;
+  padding: 25px;
+  /*margin: 20px;*/
+  /*background-color: yellow;*/
+  font-size: 30px;
+  /*font-family: 'Roboto', sans-serif;
+  font-family: Helvetica, Arial;*/
+  color: #222831;
+}
+
+.window {
+  padding: 10px;
+}
+
+.buttonContainer {
+  padding: 20px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 70%;
+}
+
+.videoDiv {
+/*  margin-left: 15%;
+  margin-right: 15%;*/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.videoContainer {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+/*  width: 60%;
+  height: 60%;*/
+/*  margin: 20%;
+  margin-top: 0px;*/
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.imageContainer {
+/*  background-color: red;
+  margin: 100px
+  padding-top: 200px
+  padding-bottom : 20px;*/
+}
+
+.image {
+  width: 60%;
+  height: 60%;
+}
+
+
+
+input {
+  color: black;
+  background-color: #30475e;
+  font-size: 20px;
+  border-radius: 14px;
+  width : 170px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/* THIS IS DESKTOP VERSION */
+
+@media screen and (min-width: 736px)
+{
+
+body {
+  /*background-color: #16697a;*/
+  text-align: center;
+  margin: 0px;
+  padding: 5.5em;
+  touch-action: none;
+  font-family: Helvetica, Arial;
+}
+
+input {
+  color: black;
+  background-color: #30475e;
+  font-size: 24px;
+  border-radius: 14px;
+  width : 210px;
+  text-align: center;
+  padding: 10px;
+}
+
+.videoDiv {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+}
