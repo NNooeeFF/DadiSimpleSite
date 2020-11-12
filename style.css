@@ -133,7 +133,7 @@ input {
 
 
 
-/* THIS IS DESKTOP VERSION 
+/* THIS IS DESKTOP VERSION */
 
 @media screen and (min-width: 736px)
 {
@@ -163,4 +163,4 @@ input {
   margin-bottom: 30px;
 }
 
-}*/
+}
