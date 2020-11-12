@@ -44,7 +44,7 @@ function openInNewTab(url) {
 }
 
 
-function loadWindow() {
+function loadPage()/*loadWindow()*/ {
 
     console.log('Voici les Keys :')
     let window = document.getElementById("window")
