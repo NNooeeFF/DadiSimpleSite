@@ -33,10 +33,10 @@ function saveData(data) {
         dataContainer[row].push(value);
     }
 
-    console.log(dataContainer)
-
     loadWindow()
 }
+
+
 
 function openInNewTab(url) {
   var win = window.open(url, '_blank');
@@ -44,9 +44,9 @@ function openInNewTab(url) {
 }
 
 
-function loadPage()/*loadWindow()*/ {
 
-    console.log('Voici les Keys :')
+function loadWindow() {
+
     let window = document.getElementById("window")
 
     while (window.firstChild) {
@@ -56,7 +56,7 @@ function loadPage()/*loadWindow()*/ {
 
     for (let key of dataContainer) {
 
-        console.log(key)
+        /*console.log(key)*/
 
         if (key[0] === 'titre') {
             
