@@ -1,6 +1,6 @@
 
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 
@@ -10,7 +10,6 @@ body {
 	text-align: center;
 	margin: 0px;
 	padding: 3em;
- 	touch-action: none;
   font-family: 'Roboto', sans-serif;
 	/*font-family: 'Roboto', sans-serif;Helvetica, Arial;*/
 }
