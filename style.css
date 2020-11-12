@@ -133,13 +133,12 @@ input {
 
 
 
-/* THIS IS DESKTOP VERSION */
+/* THIS IS DESKTOP VERSION 
 
 @media screen and (min-width: 736px)
 {
 
 body {
-  /*background-color: #16697a;*/
   text-align: center;
   margin: 0px;
   padding: 5.5em;
@@ -164,4 +163,4 @@ input {
   margin-bottom: 30px;
 }
 
-}
+}*/
